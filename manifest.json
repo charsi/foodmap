@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Foodmap",
+  "version": "1.0",
+
+  "description": "Shows restaurants on a map on swiggy, zomato and foodpanda",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["*://*.swiggy.com/*"],
+      "js": ["jquery.min.js","makemap.js"]
+    }
+  ]
+
+}
