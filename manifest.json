@@ -9,6 +9,12 @@
   "icons": {
     "48": "icon.png"
   },
+  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
 
   "content_scripts": [
     {
@@ -16,6 +22,9 @@
       "matches": ["*://*.swiggy.com/*"],
       "js": ["jquery.min.js","makemap.js"]
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
 
 }
