@@ -3,8 +3,8 @@
   "manifest_version": 2,
   "name": "Foodmap",
   "version": "1.0",
-
-  "description": "Shows restaurants on a map on swiggy, zomato and foodpanda",
+  "homepage_url": "https://github.com/charsi/foodmap/",
+  "description": "Shows restaurants on a map on Swiggy, Zomato and other food ordering sites",
 
   "icons": {
     "48": "icon.png"
