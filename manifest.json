@@ -23,6 +23,7 @@
       "js": ["jquery.min.js","makemap.js"]
     }
   ],
+  
   "background": {
     "scripts": ["background.js"]
   }
