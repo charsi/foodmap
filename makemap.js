@@ -1,7 +1,7 @@
 // content-script.js
 "use strict";
 
-browser.runtime.onMessage.addListener(request => {
+chrome.runtime.onMessage.addListener(request => {
   console.log(request.greeting);
   console.log('reststaurant info loaded');
   var $resItem = $('.restaurant-container')[0];
